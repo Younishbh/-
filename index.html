@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Comprehensive Quiz – Analgesics in Anesthesia</title>
+<title>اختبار شامل – المسكنات في التخدير</title>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -234,13 +234,13 @@
     display: flex; align-items: center; gap: 13px;
     cursor: pointer; font-family: 'Tajawal', sans-serif;
     font-size: 14px; font-weight: 500; color: var(--text);
-    transition: all 0.17s; text-align: left;
+    transition: all 0.17s; text-align: right;
   }
 
   .opt:hover:not(:disabled) {
     border-color: rgba(56,189,248,0.35);
     background: rgba(56,189,248,0.05);
-    transform: translateX(3px);
+    transform: translateX(-3px);
   }
 
   .opt:disabled { cursor: default; }
@@ -421,31 +421,31 @@
 
   <div class="w-header">
     <div class="logo-wrap">💊</div>
-    <h1>Comprehensive Quiz — Analgesics in Anesthesia</h1>
-    <p>Combines questions from both lectures + important deduced conclusions from all files</p>
+    <h1>اختبار شامل — المسكنات في التخدير</h1>
+    <p>يجمع أسئلة من المحاضرتين + استنتاجات مهمة مستخلصة من كل ملف</p>
     <div class="source-badges">
       <div class="src-badge src1">📋 Lab 5 — Part 2</div>
-      <div class="src-badge src2">📖 Lecture 4</div>
+      <div class="src-badge src2">📖 المحاضرة الرابعة</div>
     </div>
   </div>
 
   <div class="w-stats">
-    <div class="w-stat"><div class="w-stat-val">28</div><div class="w-stat-lbl">QUESTIONS</div></div>
-    <div class="w-stat"><div class="w-stat-val">280</div><div class="w-stat-lbl">POINTS</div></div>
-    <div class="w-stat"><div class="w-stat-val">6</div><div class="w-stat-lbl">TOPICS</div></div>
+    <div class="w-stat"><div class="w-stat-val">28</div><div class="w-stat-lbl">سؤال</div></div>
+    <div class="w-stat"><div class="w-stat-val">280</div><div class="w-stat-lbl">نقطة</div></div>
+    <div class="w-stat"><div class="w-stat-val">6</div><div class="w-stat-lbl">محاور</div></div>
   </div>
 
   <div class="w-topics">
-    <div class="w-topics-title">🗂️ Quiz Topics</div>
-    <div class="topic-row"><div class="topic-dot" style="background:#38bdf8"></div><div class="topic-name">💊 Paracetamol — Mechanism, Dosage, Toxicity</div><div class="topic-count">7 Qs</div></div>
-    <div class="topic-row"><div class="topic-dot" style="background:#fbbf24"></div><div class="topic-name">🔶 Non-selective NSAIDs</div><div class="topic-count">7 Qs</div></div>
-    <div class="topic-row"><div class="topic-dot" style="background:#a78bfa"></div><div class="topic-name">🔵 Selective COX-2 Inhibitors</div><div class="topic-count">4 Qs</div></div>
-    <div class="topic-row"><div class="topic-dot" style="background:#34d399"></div><div class="topic-name">⚖️ Drug Comparisons</div><div class="topic-count">4 Qs</div></div>
-    <div class="topic-row"><div class="topic-dot" style="background:#fb923c"></div><div class="topic-name">🏥 Applied Clinical Cases</div><div class="topic-count">4 Qs</div></div>
-    <div class="topic-row"><div class="topic-dot" style="background:#f472b6"></div><div class="topic-name">📊 Clinical Lab Values</div><div class="topic-count">2 Qs</div></div>
+    <div class="w-topics-title">🗂️ محاور الاختبار</div>
+    <div class="topic-row"><div class="topic-dot" style="background:#38bdf8"></div><div class="topic-name">💊 الباراسيتامول — آلية، جرعة، سمية</div><div class="topic-count">7 أسئلة</div></div>
+    <div class="topic-row"><div class="topic-dot" style="background:#fbbf24"></div><div class="topic-name">🔶 NSAIDs غير انتقائية</div><div class="topic-count">7 أسئلة</div></div>
+    <div class="topic-row"><div class="topic-dot" style="background:#a78bfa"></div><div class="topic-name">🔵 COX-2 انتقائي</div><div class="topic-count">4 أسئلة</div></div>
+    <div class="topic-row"><div class="topic-dot" style="background:#34d399"></div><div class="topic-name">⚖️ مقارنة بين الأدوية</div><div class="topic-count">4 أسئلة</div></div>
+    <div class="topic-row"><div class="topic-dot" style="background:#fb923c"></div><div class="topic-name">🏥 حالات سريرية تطبيقية</div><div class="topic-count">4 أسئلة</div></div>
+    <div class="topic-row"><div class="topic-dot" style="background:#f472b6"></div><div class="topic-name">📊 قيم سريرية مخبرية</div><div class="topic-count">2 أسئلة</div></div>
   </div>
 
-  <button class="btn-start" onclick="startQuiz()">🚀 Start Quiz</button>
+  <button class="btn-start" onclick="startQuiz()">🚀 ابدئي الاختبار</button>
 </div></div>
 </div>
 
@@ -456,8 +456,8 @@
   <div class="topbar">
     <div class="prog-section">
       <div class="prog-meta">
-        <span class="q-counter-lbl" id="qCtr">Question 1 of 28</span>
-        <span class="score-lbl" id="sLbl">Score: 0</span>
+        <span class="q-counter-lbl" id="qCtr">السؤال 1 من 28</span>
+        <span class="score-lbl" id="sLbl">نقاط: 0</span>
       </div>
       <div class="prog-track"><div class="prog-fill" id="pFill" style="width:0%"></div></div>
     </div>
@@ -476,7 +476,7 @@
   <div class="opts" id="optsGrid"></div>
 
   <div class="exp-box" id="expBox">
-    <div class="exp-hdr"><span class="exp-icon">💡</span><span class="exp-title">Explanation (Arabic)</span></div>
+    <div class="exp-hdr"><span class="exp-icon">💡</span><span class="exp-title">التفسير</span></div>
     <div class="exp-text" id="expTxt"></div>
     <div id="dedNote"></div>
     <div id="keyNote"></div>
@@ -493,27 +493,27 @@
   <div class="result-main">
     <span class="r-emoji" id="rEmoji"></span>
     <div class="r-score" id="rScore"></div>
-    <div class="r-of">out of 280 points</div>
+    <div class="r-of">من أصل 280 نقطة</div>
     <div class="r-grade" id="rGrade"></div>
     <div class="r-msg" id="rMsg"></div>
     <div class="r-sub" id="rSub"></div>
     <div class="r-stats">
-      <div class="r-stat"><div class="r-val rv-g" id="rC">0</div><div class="r-lbl">✓ CORRECT</div></div>
-      <div class="r-stat"><div class="r-val rv-r" id="rW">0</div><div class="r-lbl">✗ WRONG</div></div>
-      <div class="r-stat"><div class="r-val rv-p" id="rP">0%</div><div class="r-lbl">SCORE %</div></div>
+      <div class="r-stat"><div class="r-val rv-g" id="rC">0</div><div class="r-lbl">✓ صحيح</div></div>
+      <div class="r-stat"><div class="r-val rv-r" id="rW">0</div><div class="r-lbl">✗ خطأ</div></div>
+      <div class="r-stat"><div class="r-val rv-p" id="rP">0%</div><div class="r-lbl">النسبة</div></div>
     </div>
   </div>
 
   <div class="src-breakdown">
     <div class="src-stat"><div class="src-val" id="srcLab" style="color:#38bdf8">-</div><div class="src-lbl">📋 Lab 5<br>Part 2</div></div>
-    <div class="src-stat"><div class="src-val" id="srcLec" style="color:#a78bfa">-</div><div class="src-lbl">📖 Lecture<br>4</div></div>
-    <div class="src-stat"><div class="src-val" id="srcDed" style="color:#f472b6">-</div><div class="src-lbl">🔍 Deduced<br>Conclusions</div></div>
+    <div class="src-stat"><div class="src-val" id="srcLec" style="color:#a78bfa">-</div><div class="src-lbl">📖 المحاضرة<br>الرابعة</div></div>
+    <div class="src-stat"><div class="src-val" id="srcDed" style="color:#f472b6">-</div><div class="src-lbl">🔍 استنتاجات<br>مدمجة</div></div>
   </div>
 
   <div class="breakdown" id="catBreak"></div>
 
-  <button class="btn-restart" onclick="restart()">🔄 Restart Quiz</button>
-  <button class="btn-home" onclick="goHome()">← Home</button>
+  <button class="btn-restart" onclick="restart()">🔄 إعادة الاختبار</button>
+  <button class="btn-home" onclick="goHome()">← الرئيسية</button>
 
 </div></div>
 </div>
@@ -522,50 +522,50 @@
 const QS = [
 
 /* ─── PARACETAMOL ─── */
-{src:'lec', cat:'para', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lec', cat:'para', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What are the practical uses of paracetamol in the field of anesthesia?',
  o:['Used only as a fever reducer in children','Mild to moderate pain + antipyretic + IV during surgery + post-operative pain control','Used only for post-operative pain relief','Treatment of acute joint inflammation'],
  c:1, exp:'الباراسيتامول متعدد الاستخدامات: يُعالج الألم الخفيف-المتوسط، يخفض الحرارة، يُعطى IV أثناء الجراحة لتقليل الأفيونات، ويُستخدم للتحكم بالألم بعد العملية.',
  key:'✅ أربع استخدامات رئيسية يجب حفظها'},
 
-{src:'lec', cat:'para', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lec', cat:'para', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What is the mechanism of action of paracetamol in relieving pain and fever?',
  o:['Inhibits COX-1 and COX-2 in peripheral tissues','Binds to opioid receptors in the spinal cord','Centrally inhibits COX enzymes in the brain → reduces prostaglandin → relieves pain and fever','Prevents histamine release from mast cells'],
  c:2, exp:'الباراسيتامول يعمل مركزياً في الدماغ. يثبط COX مما يقلل تخليق البروستاغلاندين المسؤول عن الألم والحرارة. تأثيره مركزي وليس محيطياً كما في NSAIDs.',
  ded:'🧠 مركزي (Brain) ≠ محيطي (Peripheral) — الباراسيتامول مركزي، NSAIDs محيطية+مركزية'},
 
-{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What is the onset of action of intravenous (IV) paracetamol for pain relief?',
  o:['30–45 minutes','5–10 minutes','One full hour','15–20 minutes'],
  c:1, exp:'الباراسيتامول الوريدي يبدأ مفعوله التسكيني خلال 5-10 دقائق فقط من الحقن. هذا يجعله مثالياً للإعطاء قرب نهاية العملية لبدء التسكين فور الاستيقاظ.',
  key:'⚡ 5-10 دقائق عند IV | لذلك يُعطى قبل 20 دقيقة من نهاية العملية'},
 
-{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What is the main toxicity of paracetamol in case of overdose?',
  o:['Acute renal failure','Hepatotoxicity due to accumulation of the toxic metabolite NAPQI','Acute respiratory depression','Acute gastrointestinal bleeding'],
  c:1, exp:'الجرعة الزائدة تُنضب مخزون الغلوتاثيون فيتراكم المستقلب السام NAPQI (N-acetyl-p-benzoquinone imine). هذا المستقلب يتحد مع بروتينات الكبد ويُحدث نخراً كبدياً حاداً.',
  key:'🚨 NAPQI = القاتل | الغلوتاثيون = الواقي | عند نضوبه → تلف الكبد'},
 
-{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lab', cat:'para', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What is the antidote used in paracetamol poisoning and how does it work?',
  o:['Naloxone — reverses opioid effects','Flumazenil — reverses benzodiazepines','Atropine — inhibits the parasympathetic system','N-acetylcysteine (NAC) — replenishes glutathione to neutralize NAPQI'],
  c:3, exp:'NAC (N-acetylcysteine) هو الترياق الوحيد. يعمل عبر تجديد مخزون الغلوتاثيون في الكبد الذي يحيّد NAPQI ويمنع تراكمه. يجب إعطاؤه مبكراً لفعالية أعلى.',
  key:'💊 NAC = N-acetylcysteine = يُجدد الغلوتاثيون = ترياق التسمم بالباراسيتامول'},
 
-{src:'lec', cat:'para', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'lec', cat:'para', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'What is the maximum daily dose of paracetamol for a healthy adult?',
  o:['2 g/day','8 g/day','4 g/day (some protocols recommend 3–4 g depending on safety)','6 g/day'],
  c:2, exp:'الحد الأقصى للبالغ السليم هو 4 غرام في اليوم. بعض البروتوكولات الأكثر حذراً توصي بـ 3-4 غرام. تجاوز هذا الحد خاصة مع أمراض الكبد أو الكحول يزيد خطر التسمم الكبدي.',
  ded:'⚠️ تنخفض الجرعة القصوى في: أمراض الكبد، إدمان الكحول، سوء التغذية (نضوب الغلوتاثيون)'},
 
-{src:'deduced', cat:'para', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'💊 Paracetamol', catCls:'cl-para',
+{src:'deduced', cat:'para', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'💊 الباراسيتامول', catCls:'cl-para',
  q:'Why is paracetamol safe for a patient without liver disease? How does the equation change in a patient with liver disease?',
  o:['Because it is not metabolized in the liver at all','Because a healthy liver has sufficient glutathione to neutralize NAPQI, while a diseased liver fails to do so and NAPQI accumulates','Because the healthy liver excretes it directly without metabolism','Because it protects the liver by inhibiting hepatic enzymes'],
  c:1, exp:'الكبد السليم يستقلب الباراسيتامول بشكل رئيسي عبر الغلوكورونيد والكبريتات (مسارات آمنة). الجزء الصغير الذي يصنع NAPQI يتم تحييده بسرعة بالغلوتاثيون الوفير. في الكبد المريض: مخزون الغلوتاثيون ناضب وقدرة التحييد ضعيفة → خطر أعلى.',
  ded:'🔍 هذا يفسر لماذا ذكرت المحاضرة "No liver disease" كشرط أمان — الكبد السليم = غلوتاثيون كافٍ = تحييد NAPQI'},
 
 /* ─── NSAIDs ─── */
-{src:'lec', cat:'nsaid', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'lec', cat:'nsaid', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'What is the mechanism of action of ibuprofen in relieving pain and inflammation?',
  o:['Selectively inhibits COX-2 only','Binds to opioid receptors','Inhibits both COX-1 and COX-2 → reduces prostaglandin synthesis → relieves pain, inflammation, and fever','Directly inhibits the release of inflammatory cytokines'],
  c:2, exp:'الإيبوبروفين NSAID غير انتقائي يثبط كلا إنزيمي COX-1 وCOX-2. هذا يقلل تخليق البروستاغلاندين في مختلف الأنسجة، مما يخفف الألم والالتهاب والحرارة.',
@@ -577,111 +577,111 @@ const QS = [
  c:1, exp:'NSAIDs تثبط COX-1 في الصفائح الدموية مما يقلل إنتاج Thromboxane A2 الضروري لتجميع الصفائح وتكوين الجلطة الأولية. هذا يزيد من مخاطر النزيف أثناء الجراحة وبعدها.',
  key:'🩸 NSAIDs + جراحة = خطر نزيف بسبب تثبيط الصفائح'},
 
-{src:'lec', cat:'nsaid', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'lec', cat:'nsaid', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'How do non-selective NSAIDs cause gastric ulcers?',
  o:['By directly increasing hydrochloric acid secretion','By inhibiting COX-1 → reduced prostaglandin → weakened mucus and bicarbonate secretion → erosion of the gastric lining','By activating H. pylori bacteria in the stomach','By accelerating gastric motility and reducing digestion time'],
  c:1, exp:'COX-1 في المعدة ينتج البروستاغلاندين الذي يُحفز إفراز المخاط الواقي والبيكربونات المعادلة للحمض. NSAIDs تثبط COX-1 فيضعف هذا الحاجز ويتعرض الغشاء المخاطي للهجوم الحمضي.',
  key:'🔑 COX-1 في المعدة = ينتج واقياً | NSAIDs = تُزيل هذا الواقي → قرحة'},
 
-{src:'lec', cat:'nsaid', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'lec', cat:'nsaid', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'In which two conditions must NSAIDs be absolutely avoided?',
  o:['Pregnancy and anemia','Renal failure and peptic ulcer disease','Diabetes and hypertension','Asthma and morbid obesity'],
  c:1, exp:'النقيضان المطلقان: (1) فشل الكلى — NSAIDs تقلل تدفق الدم الكلوي وتزيد خطر الفشل الحاد. (2) قرحة المعدة — NSAIDs تُزيل الحماية المخاطية وتُفاقم القرحة وتزيد خطر النزيف.',
  key:'🚫 Renal failure + Peptic ulcer = موانع مطلقة للـ NSAIDs'},
 
-{src:'lec', cat:'nsaid', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'lec', cat:'nsaid', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'What are the potential concerns with NSAIDs during surgery in a patient who has been taking ibuprofen for 3 months?',
  o:['No concerns because ibuprofen\'s effect is reversible and has ended','Slight increased bleeding tendency + possible reduced renal perfusion when blood pressure drops + possible gastric irritation','Only risk of arterial hypertension','Risk of acute heart failure during anesthesia'],
  c:1, exp:'المخاوف الثلاث الرئيسية: (1) ميل طفيف للنزيف رغم عكوسية التأثير، (2) تراجع محتمل في تروية الكلى عند انخفاض الضغط أثناء التخدير (خاصة أن COX الكلوي يُوسّع الأوعية الكلوية)، (3) تهيج معدي محتمل عند الإجهاد الجراحي.'},
 
-{src:'deduced', cat:'nsaid', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'deduced', cat:'nsaid', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'A patient with chronic kidney disease has a drop in blood pressure during surgery. Why is the risk of NSAIDs on the kidneys doubled in this situation?',
  o:['Because NSAIDs raise blood pressure and this strains the kidneys','Because renal COX produces prostaglandin that dilates renal vessels to maintain perfusion — NSAIDs inhibit it, and low blood pressure increases the need for this dilation → near-zero renal perfusion','Because NSAIDs deposit in the kidneys and block the glomeruli','Because the kidneys speed up NSAIDs clearance so they accumulate in the blood'],
  c:1, exp:'في الحالة الطبيعية الكلى تحافظ على تروية الكبيبات عبر البروستاغلاندين الذي يُوسّع الشريان الوارد. عند انخفاض الضغط يزداد اعتماد الكلى على هذا الميكانيزم. NSAIDs تقطع هذا الخط الأخير من الدفاع → نقص حاد في التروية الكلوية → فشل كلوي حاد.',
  ded:'🔍 الاستنتاج: انخفاض الضغط الجراحي + كلى مريضة + NSAIDs = ثلاثية خطيرة جداً'},
 
-{src:'deduced', cat:'nsaid', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
+{src:'deduced', cat:'nsaid', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'🔶 NSAIDs', catCls:'cl-nsaid',
  q:'Can NSAIDs be used after surgery in the 62-year-old patient mentioned in the lecture? What are the conditions?',
  o:['No, they must be stopped permanently after any surgery','Yes, provided: normal kidney function + normal coagulation + as part of multimodal analgesia + with continuous monitoring','Yes, they can be given freely without any restrictions','Yes, but at double the dose to compensate for the interruption during surgery'],
  c:1, exp:'المحاضرة ذكرت أن وظيفة الكلى طبيعية (Creatinine 1.0) وتخثر الدم طبيعي — هذان الشرطان يجعلان الاستخدام آمناً. لكن المراقبة ضرورية لأن التدخل الجراحي يغيّر ديناميكا الجسم. تُعطى ضمن خطة تسكين متعددة الأنماط لا كدواء وحيد.',
  ded:'🔍 القاعدة: قيّم الكلى + التخثر قبل NSAIDs → إذا طبيعي يمكن الاستخدام مع مراقبة'},
 
 /* ─── COX-2 ─── */
-{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 Selective', catCls:'cl-cox2',
+{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 انتقائي', catCls:'cl-cox2',
  q:'What is the mechanism of action of celecoxib that distinguishes it from ibuprofen?',
  o:['Inhibits COX-1 and COX-2 equally but at a lower dose','Binds to different pain receptors in the brain','Selectively inhibits COX-2 only → reduces inflammatory prostaglandin with minimal effect on COX-1','Inhibits only COX-1 to protect against side effects'],
  c:2, exp:'سيليكوكسيب يستهدف COX-2 انتقائياً. COX-2 هو المسؤول عن البروستاغلاندين الالتهابي (يُنشط عند الالتهاب)، بينما COX-1 يُنتج البروستاغلاندين الواقي في المعدة والصفائح. الانتقائية تعني: تسكين ألم + حفظ حماية المعدة والصفائح.',
  key:'🎯 COX-2 = التهاب | COX-1 = حماية — سيليكوكسيب يستهدف COX-2 فقط'},
 
-{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 Selective', catCls:'cl-cox2',
+{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 انتقائي', catCls:'cl-cox2',
  q:'What is the cardiovascular risk of COX-2 inhibitors and what is the underlying physiological mechanism?',
  o:['Directly raises blood pressure by constricting large arteries','Increases the risk of heart attack and stroke due to Thromboxane A2 / Prostacyclin imbalance favoring thrombosis','Weakens the heart muscle by inhibiting mitochondrial enzymes','Causes calcium deposits in the coronary arteries'],
  c:1, exp:'Prostacyclin (PGI2) يصنعه COX-2 في جدار الأوعية — يُوسّع الأوعية ويمنع التجلط. Thromboxane A2 يصنعه COX-1 في الصفائح — يُضيّق ويُجلّط. COX-2 inhibitors تُثبط Prostacyclin دون تأثير على Thromboxane → اختلال يميل للتجلط.',
  ded:'🔍 المعادلة: Prostacyclin↓ + Thromboxane طبيعي = ميل للجلطة القلبية والسكتة'},
 
-{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 Selective', catCls:'cl-cox2',
+{src:'lab', cat:'cox2', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🔵 COX-2 انتقائي', catCls:'cl-cox2',
  q:'Why is celecoxib preferred for a patient with a history of gastric irritation from traditional NSAIDs?',
  o:['Because it treats pre-existing gastric ulcers','Because it relieves pain faster','Because it does not significantly inhibit COX-1 → the protective gastric prostaglandin remains → less irritating with lower ulcer risk','Because it directly stimulates gastric mucus secretion'],
  c:2, exp:'COX-1 في المعدة ينتج البروستاغلاندين الذي يحمي بطانتها. NSAIDs التقليدية تثبط COX-1 فتُزيل هذه الحماية. سيليكوكسيب COX-2 انتقائي لا يؤثر على COX-1 المعدي بشكل معتد به → حماية المعدة تبقى سليمة.'},
 
-{src:'deduced', cat:'cox2', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'🔵 COX-2 Selective', catCls:'cl-cox2',
+{src:'deduced', cat:'cox2', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'🔵 COX-2 انتقائي', catCls:'cl-cox2',
  q:'A patient has a history of peptic ulcer and heart disease. Which is more appropriate: ibuprofen, celecoxib, or neither?',
  o:['Ibuprofen because it is stronger','Celecoxib because his stomach is protected','Neither is appropriate — celecoxib increases cardiac risk, and ibuprofen worsens the ulcer. Paracetamol may be the safest option.','Ibuprofen with gastric protection using omeprazole'],
  c:2, exp:'هذا سؤال استنتاجي مهم: سيليكوكسيب يحمي المعدة لكنه يزيد خطر القلب — غير مناسب لمريض قلبي. إيبوبروفين يُفاقم القرحة — غير مناسب لمريض قرحة. في هذه الحالة المعقدة، الباراسيتامول (بحدوده الآمنة) هو الخيار الأأمن أو يُقيَّم كل حالة بحالتها.',
  ded:'🔍 الاستنتاج: كل NSAID له ثمن — يجب دائماً موازنة فوائد ومخاطر كل دواء بناءً على ملف المريض الكامل'},
 
 /* ─── COMPARISON ─── */
-{src:'lab', cat:'comp', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'⚖️ Comparison', catCls:'cl-comp',
+{src:'lab', cat:'comp', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'⚖️ مقارنة', catCls:'cl-comp',
  q:'What is the fundamental difference between aspirin and ibuprofen in their effect on platelets?',
  o:['Aspirin is reversible and ibuprofen is irreversible','Both are irreversible but aspirin has a stronger effect','Aspirin is irreversible (7–10 days) because platelets have no nucleus | Ibuprofen is reversible (ends with the drug)','Both are reversible but aspirin takes longer to recover'],
  c:2, exp:'الأسبرين يُربط COX-1 بشكل كيميائي لارجعي (أسيتيل). الصفائح بلا نواة لا تستطيع تصنيع إنزيم جديد. لذا يبقى التأثير 7-10 أيام حتى ينشأ جيل جديد من الصفائح. الإيبوبروفين يرتبط بشكل عكوس، وعند خروجه من البلازما يعود COX-1 للعمل.',
  key:'🩸 أسبرين قبل الجراحة: توقف 7-10 أيام | إيبوبروفين: توقف يوم واحد كافٍ غالباً'},
 
-{src:'deduced', cat:'comp', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'⚖️ Comparison', catCls:'cl-comp',
+{src:'deduced', cat:'comp', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'⚖️ مقارنة', catCls:'cl-comp',
  q:'Compare paracetamol and ibuprofen in terms of: site of action, gastric effect, platelet effect',
  o:['Both have the same site and side effects','Paracetamol: central, stomach-safe, no platelet effect | Ibuprofen: peripheral+central, harms the stomach, temporarily inhibits platelets','Ibuprofen is central and paracetamol is peripheral','Paracetamol affects platelets more strongly than ibuprofen'],
  c:1, exp:'الباراسيتامول: يعمل مركزياً في الدماغ، تأثير ضئيل جداً على COX-1 المعدي → معدة آمنة، لا يثبط الصفائح. الإيبوبروفين: يعمل محيطياً ومركزياً، يثبط COX-1 في المعدة → خطر قرحة، يثبط COX-1 في الصفائح مؤقتاً → تقليل تجمعها.',
  ded:'🔍 هذه المقارنة تفسر لماذا الباراسيتامول أكثر أماناً في الجراحة من حيث النزيف'},
 
-{src:'deduced', cat:'comp', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'⚖️ Comparison', catCls:'cl-comp',
+{src:'deduced', cat:'comp', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'⚖️ مقارنة', catCls:'cl-comp',
  q:'What is the concept of Multimodal Analgesia and what is its benefit?',
  o:['Giving large doses of a single drug for a stronger effect','Combining drugs with different mechanisms to improve analgesia and reduce the dose of each drug, thereby reducing its side effects','Giving the patient three analgesic drugs regardless of their mechanisms','A technique for giving drugs via multiple routes: oral + IV + topical'],
  c:1, exp:'Multimodal Analgesia يعتمد على مبدأ أن دمج أدوية بآليات مختلفة يعطي تأثيراً تسكينياً أقوى بجرعات أقل من كل دواء. مثلاً: الباراسيتامول (مركزي-COX) + NSAID (محيطي-COX) + أفيون (مستقبلات أفيونية) = تسكين ممتاز بجرعات أقل وآثار جانبية أقل.',
  ded:'🔍 هذا سبب إعطاء الباراسيتامول مع الفنتانيل في المحاضرة — هما يعملان بآليات مختلفة'},
 
-{src:'deduced', cat:'comp', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'⚖️ Comparison', catCls:'cl-comp',
+{src:'deduced', cat:'comp', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'⚖️ مقارنة', catCls:'cl-comp',
  q:'Why is paracetamol not classified as an NSAID despite inhibiting COX?',
  o:['Because it is classified as a mild opioid','Because it acts centrally and not peripherally like NSAIDs, and has no significant anti-inflammatory effect in peripheral tissues','Because it inhibits a different type of COX unrelated to COX-1 and COX-2','Because it resembles opioids in its chemical structure'],
  c:1, exp:'الفرق الجوهري: NSAIDs تثبط COX محيطياً في الأنسجة بشكل قوي → مضاد للالتهاب + تأثير على المعدة والصفائح والكلى. الباراسيتامول تثبيطه مركزي رئيسياً → مسكن وخافض للحرارة لكن ضعيف جداً كمضاد التهاب. لذا هو Non-opioid analgesic لكن ليس NSAID.',
  ded:'🔍 في المحاضرة صُنِّف تحت "Non-Opioid Analgesics" وليس NSAIDs — هذا الفرق مهم للامتحان'},
 
 /* ─── CLINICAL ─── */
-{src:'lec', cat:'clin', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'🏥 Clinical', catCls:'cl-clin',
+{src:'lec', cat:'clin', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'🏥 سريري', catCls:'cl-clin',
  q:'A 45-year-old patient is undergoing cholecystectomy. Why was paracetamol given instead of an NSAID during the operation?',
  o:['Because paracetamol is cheaper and easier to administer','Because NSAIDs interact with propofol used for anesthesia','Because paracetamol does not inhibit platelets and does not affect the kidneys → safer during surgery, and it takes effect quickly when given IV','Because NSAIDs cannot be given intravenously at all'],
  c:2, exp:'خلال العملية: الباراسيتامول آمن لأنه لا يثبط الصفائح (لا نزيف)، لا يؤثر على الكلى (مهم عند انخفاض الضغط)، لا يؤثر على المعدة. إضافة لسرعة مفعوله عند الإعطاء الوريدي. كل هذه المزايا تجعله الخيار الأول أثناء الجراحة.',
  ded:'🔍 الاستنتاج: الجراحة = حالة خاصة تستدعي دواءً آمناً على الصفائح + الكلى + المعدة → الباراسيتامول أفضل'},
 
-{src:'lab', cat:'clin', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🏥 Clinical', catCls:'cl-clin',
+{src:'lab', cat:'clin', srcLbl:'📋 Lab 5 Part 2', srcCls:'st-lab', catLbl:'🏥 سريري', catCls:'cl-clin',
  q:'In a case of paracetamol poisoning, what determines the severity of liver damage?',
  o:['The amount of the drug alone regardless of any other factors','The amount of the drug + available glutathione stores + baseline liver function + predisposing factors such as alcohol and malnutrition','The type of paracetamol (oral vs IV) only','The speed of administration only'],
  c:1, exp:'شدة التلف الكبدي تتحدد بالتوازن بين: (1) كمية NAPQI المتكوّنة (تزيد بزيادة الجرعة والكحول والأدوية المحفزة للكبد)، (2) مخزون الغلوتاثيون المتاح لتحييد NAPQI (يقل عند الكحول وسوء التغذية وأمراض الكبد). أي شيء يزيد NAPQI أو يقل الغلوتاثيون = خطر أعلى.',
  ded:'🔍 هذا يفسر لماذا مدمن الكحول أكثر عرضة للتسمم حتى بجرعات طبيعية — ناضب غلوتاثيون + محفز إنزيمي'},
 
-{src:'deduced', cat:'clin', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'🏥 Clinical', catCls:'cl-clin',
+{src:'deduced', cat:'clin', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'🏥 سريري', catCls:'cl-clin',
  q:'A 62-year-old female patient with diabetes and hypertension takes Metformin, Amlodipine, and ibuprofen for 3 months. What is the most important question to ask before giving her an NSAID after surgery?',
  o:['Does her family history include heart disease?','Is she breastfeeding?','What is her current kidney function? (Creatinine and GFR measurement)','Does she have any drug allergy?'],
  c:2, exp:'الكلى هي المحور الأساسي. الكرياتينين في المحاضرة كان 1.0 mg/dL (طبيعي) — هذا ما سمح باستخدام NSAID. لو كان مرتفعاً لوجب الامتناع. السكري + الضغط المرتفع + العمر = عوامل خطر للاعتلال الكلوي، لذا الكلى هي أولوية التقييم.',
  ded:'🔍 القاعدة الذهبية: قبل أي NSAID → قيّم الكلى أولاً'},
 
-{src:'deduced', cat:'clin', srcLbl:'🔍 Deduced', srcCls:'st-deduced', catLbl:'🏥 Clinical', catCls:'cl-clin',
+{src:'deduced', cat:'clin', srcLbl:'🔍 استنتاج', srcCls:'st-deduced', catLbl:'🏥 سريري', catCls:'cl-clin',
  q:'A patient scheduled for knee replacement has gastric irritation and hypertension. What is the best analgesic regimen for her post-operatively?',
  o:['Ibuprofen 400 mg three times daily only','Morphine only because it is the strongest','IV paracetamol + celecoxib (with cardiac caution) + minimize opioids as much as possible — multimodal analgesia','No need for analgesics because pain is normal after surgery'],
  c:2, exp:'استبدال الركبة = ألم شديد يحتاج تسكيناً قوياً. المريضة عندها: تهيج معدي → NSAIDs التقليدية ممنوعة، ضغط مرتفع → COX-2 inhibitors بحذر لخطر القلب. الحل: باراسيتامول (آمن للمعدة والصفائح) + سيليكوكسيب (أقل تهيجاً للمعدة مع مراقبة القلب) + أفيون بجرعة منخفضة عند الحاجة.',
  ded:'🔍 هذه نفس حالة المحاضرة — الجمع بين أدوية متعددة الأنماط هو الحل الأمثل'},
 
 /* ─── VITAL / LAB ─── */
-{src:'lec', cat:'vital', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'📊 Clinical Values', catCls:'cl-vital',
+{src:'lec', cat:'vital', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'📊 قيم سريرية', catCls:'cl-vital',
  q:'What are the normal vital signs values mentioned in the lecture?',
  o:[
    'BP: 100/60 | HR: 50-60 | SpO₂: >90% | RR: 8-12',
@@ -692,7 +692,7 @@ const QS = [
  c:1, exp:'القيم الطبيعية التي شرحتها المحاضرة: ضغط الدم 120-140/80-90 (المقبول حتى 140/90)، نبض 60-100 نبضة/دقيقة، تشبع الأكسجين 95-100% (أقل من 90 = خطر)، معدل التنفس 12-20 نفس/دقيقة.',
  key:'📊 هذه القيم الطبيعية مهمة جداً للقراءة الصحيحة للحالات السريرية في الامتحان'},
 
-{src:'lec', cat:'vital', srcLbl:'📖 Lecture 4', srcCls:'st-lec', catLbl:'📊 Clinical Values', catCls:'cl-vital',
+{src:'lec', cat:'vital', srcLbl:'📖 المحاضرة 4', srcCls:'st-lec', catLbl:'📊 قيم سريرية', catCls:'cl-vital',
  q:'What is the relationship between serum creatinine level and kidney function? What are the normal values?',
  o:[
    'Creatinine has nothing to do with the kidneys; it measures liver function',
@@ -719,8 +719,8 @@ function render(){
   const q = QS[cur]; answered=false;
   const pct=(cur/QS.length)*100;
   document.getElementById('pFill').style.width=pct+'%';
-  document.getElementById('qCtr').textContent=`Question ${cur+1} of ${QS.length}`;
-  document.getElementById('sLbl').textContent=`Score: ${score}`;
+  document.getElementById('qCtr').textContent=`السؤال ${cur+1} من ${QS.length}`;
+  document.getElementById('sLbl').textContent=`نقاط: ${score}`;
   document.getElementById('sBadge').textContent=`${score}/280`;
 
   const st=document.getElementById('srcTag');
@@ -728,15 +728,15 @@ function render(){
   const cl=document.getElementById('catLbl');
   cl.textContent=q.catLbl; cl.className='cat-label '+q.catCls;
 
-  document.getElementById('qNum').textContent=`Question ${cur+1}`;
+  document.getElementById('qNum').textContent=`السؤال ${cur+1}`;
   document.getElementById('qTxt').textContent=q.q;
 
   const grid=document.getElementById('optsGrid'); grid.innerHTML='';
-  const lets=['A','B','C','D'];
+  const lets=['أ','ب','ج','د'];
   q.o.forEach((o,i)=>{
     const btn=document.createElement('button');
     btn.className='opt';
-    btn.innerHTML=`<span class="opt-letter">${lets[i]}</span><span class="opt-txt">${o}</span>`;
+    btn.innerHTML=`<span class="opt-txt">${o}</span><span class="opt-letter">${lets[i]}</span>`;
     btn.onclick=()=>pick(i);
     grid.appendChild(btn);
   });
@@ -765,7 +765,7 @@ function pick(i){
     btns[q.c].classList.add('reveal');
   }
 
-  document.getElementById('sLbl').textContent=`Score: ${score}`;
+  document.getElementById('sLbl').textContent=`نقاط: ${score}`;
   document.getElementById('sBadge').textContent=`${score}/280`;
   document.getElementById('expTxt').textContent=q.exp;
 
@@ -774,7 +774,7 @@ function pick(i){
 
   document.getElementById('expBox').classList.add('show');
   const nb=document.getElementById('btnNext');
-  nb.textContent = cur<QS.length-1 ? 'Next Question →' : '🏁 View Results';
+  nb.textContent = cur<QS.length-1 ? 'السؤال التالي ←' : '🏁 عرض النتيجة';
   nb.classList.add('show');
 }
 
@@ -793,11 +793,11 @@ function showResult(){
   document.getElementById('srcDed').textContent=`${srcSt.deduced.c}/${srcSt.deduced.t}`;
 
   let emoji,grade,gs,msg,sub;
-  if(pct>=90){emoji='🏆';grade='Excellent A+';gs='background:rgba(52,211,153,.15);color:#34d399;border:1px solid rgba(52,211,153,.3)';msg='Outstanding! Fully ready for the exam';sub='Keep this level — the lecture is in your hands!';}
-  else if(pct>=80){emoji='🎯';grade='Very Good A';gs='background:rgba(56,189,248,.15);color:#38bdf8;border:1px solid rgba(56,189,248,.3)';msg='Excellent! Very close to perfection';sub='Review weak points and you will reach 100.';}
-  else if(pct>=70){emoji='📚';grade='Good B';gs='background:rgba(251,191,36,.15);color:#fbbf24;border:1px solid rgba(251,146,60,.3)';msg='Good! You need more review';sub='Focus on conclusions and drug differences.';}
-  else if(pct>=60){emoji='💪';grade='Acceptable C';gs='background:rgba(251,146,60,.15);color:#fb923c;border:1px solid rgba(251,146,60,.3)';msg='Review the explanations and try again';sub='Pay attention to each drug\'s mechanism and its clinical cases.';}
-  else{emoji='📖';grade='Needs Review D';gs='background:rgba(248,113,113,.15);color:#f87171;border:1px solid rgba(248,113,113,.3)';msg='Don\'t give up! Read the explanation first';sub='Read each question\'s explanation carefully, then redo the quiz.';}
+  if(pct>=90){emoji='🏆';grade='ممتاز A+';gs='background:rgba(52,211,153,.15);color:#34d399;border:1px solid rgba(52,211,153,.3)';msg='استثنائي! جاهزة تماماً للكوز';sub='استمري بهذا المستوى، المحاضرة في يدك!';}
+  else if(pct>=80){emoji='🎯';grade='جيد جداً A';gs='background:rgba(56,189,248,.15);color:#38bdf8;border:1px solid rgba(56,189,248,.3)';msg='ممتازة! قريبة جداً من الكمال';sub='راجعي نقاط الضعف وستبلغين المئة.';}
+  else if(pct>=70){emoji='📚';grade='جيد B';gs='background:rgba(251,191,36,.15);color:#fbbf24;border:1px solid rgba(251,146,60,.3)';msg='جيد! تحتاجين مزيداً من المراجعة';sub='ركزي على الاستنتاجات والفروق بين الأدوية.';}
+  else if(pct>=60){emoji='💪';grade='مقبول C';gs='background:rgba(251,146,60,.15);color:#fb923c;border:1px solid rgba(251,146,60,.3)';msg='راجعي التفسيرات وأعيدي المحاولة';sub='Pay attention to each drug\'s mechanism and its clinical cases.';}
+  else{emoji='📖';grade='يحتاج مراجعة D';gs='background:rgba(248,113,113,.15);color:#f87171;border:1px solid rgba(248,113,113,.3)';msg='Don\'t give up! Read the explanation first';sub='Read each question\'s explanation carefully, then redo the quiz.';}
 
   document.getElementById('rEmoji').textContent=emoji;
   const rg=document.getElementById('rGrade');
@@ -806,14 +806,14 @@ function showResult(){
   document.getElementById('rSub').textContent=sub;
 
   const catInfo={
-    para:{n:'💊 Paracetamol',clr:'#38bdf8'},
+    para:{n:'💊 الباراسيتامول',clr:'#38bdf8'},
     nsaid:{n:'🔶 NSAIDs',clr:'#fbbf24'},
     cox2:{n:'🔵 COX-2',clr:'#a78bfa'},
-    comp:{n:'⚖️ Comparison',clr:'#34d399'},
-    clin:{n:'🏥 Clinical',clr:'#fb923c'},
-    vital:{n:'📊 Lab Values',clr:'#f472b6'}
+    comp:{n:'⚖️ مقارنة',clr:'#34d399'},
+    clin:{n:'🏥 سريري',clr:'#fb923c'},
+    vital:{n:'📊 قيم سريرية',clr:'#f472b6'}
   };
-  let html='<div class="bd-title">📊 Performance by Topic</div>';
+  let html='<div class="bd-title">📊 أداؤكِ حسب المحور</div>';
   Object.keys(catInfo).forEach(k=>{
     const s=catSt[k], ci=catInfo[k];
     const p=s.t>0?Math.round((s.c/s.t)*100):0;
